@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPENCE TRACKER</title>
+    <link rel="icon" href="https://images.pexels.com/photos/4386323/pexels-photo-4386323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    <link rel="stylesheet" href="second.css">
+</head>
+
+<body>
+    <div class="container">
+        
+            <h1>Expense Tracker</h1>
+            
+            <form id="expense-form">
+                <input type="text" id="expense-description" placeholder="Description" required>
+                
+                <input type="number" id="expense-amount" placeholder="Amount" required>
+                
+                <input type="date" id="expense-date" placeholder="Date">
+                
+                <button type="submit" >Add Expence</button>
+                
+            </form>
+            <h2>Expense</h2>
+            <table id="expense-table">
+                <thead>
+                    <tr>
+                    <th>Description</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+
+            
+
+            <h3>Total:$<span id="total">0.00</span></h3>
+            
+            <button type="reset">Reset</button>
+        
+    </div>
+    <script src="third.js"></script>
+</body>
+</html>

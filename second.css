@@ -1,0 +1,64 @@
+body{
+    background-image: url('https://images.pexels.com/photos/4968651/pexels-photo-4968651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    background-color: #fbfbfc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: beige;
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+input,button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button{
+    background-color:lightblue;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: aquamarine ;
+}
+
+table{
+    width: 100%;
+    font-size: 16px;
+    border-collapse: collapse;
+}
+
+table th,table td{
+    padding: 1px;
+    border: 1px solid #221f1f;
+    text-align: left;
+}
+table th{
+    background-color:#f4f4f9;
+}
